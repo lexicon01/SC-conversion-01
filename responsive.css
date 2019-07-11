@@ -194,12 +194,15 @@
         font-size: 1.5rem;
         position: relative;
         top: 30px;
+        text-align: center;
     }
     .connect-middle p {
         font-size: .9rem;
         margin-top: 10px;
-        padding: 0 10%;
+        margin-left: 10px;
+        padding: 0 15%;
         line-height: 1.2rem;
+
     }
 
     .space {
@@ -210,6 +213,7 @@
 
     .connect-text {
         text-align: center;
+        justify-content: center;
     }
 
     .btn-img   {
@@ -218,7 +222,7 @@
     }
     
     .pad-fix {
-        padding: 3px;
+        padding: 6px;
   
     }
 
@@ -231,6 +235,9 @@
         top: -10px;
     }
 
+    .btn-img {
+        height: 3.2rem;
+    }
     /* end of connectafasdf */
 }
 
@@ -329,12 +336,14 @@
     }
     
     .pad-fix {
-        padding: 5px;
+        padding: 8px;
     }
-
     .mar-fix {
-        margin-bottom: 5px;
+        margin-bottom: 8px;
     }
 
+    .btn-img {
+        height: 3.2rem;
+    }
     /* end of connect */
 }
