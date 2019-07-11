@@ -374,11 +374,18 @@
     .card-width {
         width: 18rem;
     }
-    .middle-center {
+    /* .middle-center {     this added unwanted space on the right side of the screen
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-30%, 10%);
+        
+    } */
+
+    .middle-center {
+        margin-top: 150px;
+        margin-left: 70px;
+        text-align: center;
         
     }
 
@@ -396,8 +403,35 @@
         position: relative;
         top: 200px;
         display: none;
+
     }
 
+    .last-section{
+        position: relative;
+        margin: 15rem 0 0 0;
+        height: 50%;
+        padding: 0 0 0 0;
+    }
+
+    .cta-content {
+        padding: 0rem 0 10rem 0;
+        margin-top: 40px;
+    }
+    .footer {
+        margin: 0 0 0 0;
+        position: relative;
+       display: block;
+       text-align: center;
+    }
+
+    .lang {
+    
+       
+    }
+
+    .last-section .row {
+        margin: 0;
+    }
 
     /* End of last section */
 }

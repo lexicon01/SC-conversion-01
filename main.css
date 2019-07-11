@@ -156,6 +156,7 @@ section.connect {
 
 .last-section {
     height: 100%;
+    width: auto;
 }
 
 .cta-content {
@@ -170,6 +171,7 @@ section.connect {
     width: 100%;
     position: relative;
     top: 200px;
+    z-index: -1000;
 }
 
 .cta-content h1 {
@@ -177,7 +179,8 @@ section.connect {
 }
 
 .footer {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    display: flex;
 }
 
 /* End of last section */
