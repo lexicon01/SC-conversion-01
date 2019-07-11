@@ -1,0 +1,301 @@
+/* **********************************
+        large sizes
+************************************ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+        .img-stat {
+            height: 300px;
+        }
+        .hero-content h1 {
+            font-size: 2rem;
+        }
+        .hero-content p {
+            font-size: .8rem;
+            padding: 8px;
+        }
+
+        .tri-img {
+            height: 600px;
+        }
+
+        /* Connect section */
+        .connect {
+            height: 100%;
+            width: auto;
+        }
+
+        .purp-bg {
+            height: 120%;
+            background-size: contain;
+
+        }
+
+        .connect-middle h1 {
+            font-size: 2rem;
+        }
+        .space {
+            position: relative;
+            left: 20px;
+        }
+/* working on connection second section.. need a break */
+      
+}
+
+/*  End of mediumn sizes */
+
+
+/* **********************************
+        Mediumn sizes
+************************************ */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .img-stat {
+        height: 250px;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+        position: relative;
+        top: -40px;
+    }
+    .hero-content p {
+        font-size: .8rem;
+        padding: 5px;
+        position: relative;
+        top: -35px;
+    }
+    .hero-content .purp-btn {
+        position: relative;
+        top: -20px;
+    }
+
+    .tri-img {
+        height: 550px;
+
+    }
+
+    /* connect second section */
+    .connect {
+        height: 100%;
+        width: auto;
+    }
+
+
+    .purp-bg {
+        height: 100%;
+        background-size: contain;
+        right: -100px;
+    }
+
+    .connect-middle h1 {
+        font-size: 2rem;
+    }
+
+    .space {
+        position: relative;
+        left: 20px;
+       
+    }
+    
+
+    /* end of connect */
+}
+
+/* End of mediumn sizes */
+
+/* **********************************
+        Mediumn sizes
+************************************ */
+
+@media (min-width: 575px) and (max-width: 767px) {
+
+    .img-stat {
+        height: 350px;
+        transform: translate(5%, 20%)
+    }
+    .hero-content {
+        text-align: center;
+        padding: 0 50px;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+        position: relative;
+        top: -10px;
+    }
+    .hero-content p {
+        font-size: .8rem;
+        padding: 5px;
+        position: relative;
+        top: -25px;
+    }
+    .hero-content .purp-btn {
+        position: relative;
+        top: -10px;
+    }
+
+    .tri-img {
+        height: 450px;
+
+    }
+
+    
+    /* connect second section */
+    .connect {
+        height: 100%;
+        width: auto;
+    }
+
+    .connect-middle {
+        height: 100%;
+        position: relative;
+        top: 0px;
+    }
+
+    .pic-column {
+        align-content:  middle;
+        position: relative;
+        right: -50px;
+    }
+
+     .purp-bg {
+        /*height: 100%;
+        background-size: contain;
+        right: -200px; */
+        display: none;
+    }
+    .con-bg-cover {
+        height: 100%;
+        background: url(img/background-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .connect-middle h1 {
+        font-size: 1.5rem;
+    }
+    .connect-middle p {
+        font-size: 12px;
+    }
+
+    .space {
+        position: relative;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    .connect-text {
+        text-align: center;
+    }
+
+    .btn-img   {
+        height: 50%;
+        width: auto;
+    }
+    
+
+    /* end of connect */
+}
+
+/* **********************************
+        Xtra small sizes
+************************************ */
+
+@media (min-width: 336px) and (max-width: 575px) {
+ 
+    
+    .img-stat {
+        height: 300px;
+        transform: translate(8%, 20%)
+    }
+    .hero-content {
+        text-align: center;
+        padding: 0 50px;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+        position: relative;
+        top: -20px;
+    }
+    .hero-content p {
+        font-size: .8rem;
+        padding: 10px 0;
+        position: relative;
+        top: -25px;
+    }
+    .hero-content .purp-btn {
+        position: relative;
+        top: -30px;
+        padding: 6px 25px;
+    }
+
+    .tri-img {
+        height: 450px;
+
+    }
+
+    /* connect second section */
+    .connect {
+        height: 100%;
+        width: auto;
+    }
+
+    .connect-middle {
+        height: 100%;
+        position: relative;
+        top: 0px;
+    }
+
+    .pic-column {
+        align-content:  middle;
+        position: relative;
+        right: -50px;
+    }
+
+     .purp-bg {
+        /*height: 100%;
+        background-size: contain;
+        right: -200px; */
+        display: none;
+    }
+    .con-bg-cover {
+        height: 100%;
+        background: url(img/background-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .connect-middle h1 {
+        font-size: 1.8rem;
+        position: relative;
+        top: 35px;
+    }
+    .connect-middle p {
+        font-size: 12px;
+    }
+
+    .space {
+        position: relative;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    .connect-text {
+        text-align: center;
+        position: relative;
+        left: 23px;
+    }
+
+    .btn-img   {
+        height: 50%;
+        width: auto;
+    }
+    
+    .pad-fix {
+        padding: 5px;
+    }
+
+    .mar-fix {
+        margin-bottom: 5px;
+    }
+
+    /* end of connect */
+}

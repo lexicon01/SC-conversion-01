@@ -1,0 +1,175 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar-edit */
+
+nav {
+    top: 20px;
+}
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.purp-btn {
+    background-color: rgb(86, 51, 211);
+    border-radius: 30px;
+    padding: 8px 28px;
+}
+
+/* End of navbar edit */
+/* Hero section */
+section.hero {
+   
+    position: relative;
+    height: 100vh;
+
+}
+
+
+.img-stat {
+    height: 400px;
+    width: auto;
+    position: relative;
+    top: -60px;
+
+}
+
+.tri-img {
+    z-index: -1000;
+    position: absolute;
+    height: 800px;
+    width: auto;
+    right: 0%;
+    bottom: 0%;
+    
+}
+/* end of Hero Section */
+
+
+
+
+
+/* connect section */
+section.connect {
+    position: relative;
+    height: 100vh;
+}
+
+.purp-bg {
+    position: absolute;
+    height: 750px;
+    right:  0;
+    z-index: -1000;
+    
+}
+/* end of connect section */
+.connect-middle {
+    position: relative;
+    top: 10rem;
+    left: -50px;
+}
+
+
+.connect-middle h1,
+.connect-middle p {
+    position: relative;
+    top: 10px;
+    padding: 0 20px;
+    left: -20px;
+}
+
+.connect-middle h1 {
+    padding-bottom: 30px;
+}
+
+.pad-fix {
+    padding: 16px;
+}
+
+.mar-fix {
+    margin-bottom: 1.5rem;
+}
+/* connect */
+
+
+
+/* Buttons img  */
+.btn-img {
+    height: 25%;
+}
+.bg-white {
+    border-radius: 20px;
+    transition: 
+                 3000ms ease;
+}
+
+
+/* remember to use translate instead of position relative and top/left/right */
+.move {
+    transition: all 1s ease;
+}
+
+.move:hover {
+    transform: translateX(30px);
+}
+
+/* end of buttons */
+
+/* card section */
+.card-section {
+    height: 100%;
+    position: relative;
+    padding: 15rem 0 2rem 0;
+}
+
+.card-tri {
+
+    transform: rotate(180deg);
+    height: 700px;
+    position: absolute;
+  
+}
+
+.img-pos {
+    transform: translate(0%, -213px);
+}
+
+/* End of card section */
+
+
+/* Last section */
+
+.last-section {
+    height: 100%;
+}
+
+.cta-content {
+    width: 400px;
+    padding: 0rem 0 14rem 0;
+
+}
+
+.line {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+.cta-content h1 {
+    padding-bottom: 10px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+/* End of last section */
