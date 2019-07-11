@@ -85,17 +85,38 @@
         background-size: contain;
         right: -100px;
     }
+    .connect-middle {
+        position: relative;
+        top: 55px;
+    }
 
     .connect-middle h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .connect-middle p {
+        font-size: .9rem;
     }
 
     .space {
         position: relative;
         left: 20px;
+        font-size: .8rem;
        
     }
-    
+    .pad-fix {
+        padding: 5px;
+    }
+
+    .mar-fix {
+        margin-bottom: 8x;
+    }
+    .pic-column {
+        position: relative;
+        top: 20px;
+    }
+
+
 
     /* end of connect */
 }
@@ -171,9 +192,14 @@
 
     .connect-middle h1 {
         font-size: 1.5rem;
+        position: relative;
+        top: 30px;
     }
     .connect-middle p {
-        font-size: 12px;
+        font-size: .9rem;
+        margin-top: 10px;
+        padding: 0 10%;
+        line-height: 1.2rem;
     }
 
     .space {
@@ -191,6 +217,19 @@
         width: auto;
     }
     
+    .pad-fix {
+        padding: 3px;
+  
+    }
+
+    .mar-fix {
+        margin-bottom: 10px;
+    }
+
+    .move {
+        position: relative;
+        top: -10px;
+    }
 
     /* end of connectafasdf */
 }
