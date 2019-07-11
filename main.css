@@ -50,6 +50,10 @@ section.hero {
     bottom: 0%;
     
 }
+
+.d-stat {
+    display: static;
+}
 /* end of Hero Section */
 
 
@@ -139,6 +143,10 @@ section.connect {
 
 .img-pos {
     transform: translate(0%, -213px);
+}
+
+.card-width {
+    width: 18rem;       
 }
 
 /* End of card section */

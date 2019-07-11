@@ -346,4 +346,58 @@
         height: 3.2rem;
     }
     /* end of connect */
+
+
+    /* Card-section */
+
+    .card-section {
+        height: 100%;
+        position: relative;
+        padding: 0rem 0 0rem 0;
+    }
+    
+
+    .card-tri {
+
+        transform: rotate(180deg);
+        height: 50px;
+        position: absolute;
+        top: 15rem;
+        left: 150px;
+        display: none;
+    }
+    
+    .img-pos {
+        transform: translate(15%, -240px);
+    }
+
+    .card-width {
+        width: 18rem;
+    }
+    .middle-center {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-30%, 10%);
+        
+    }
+
+    .mar-top {
+        margin-top: 2rem;
+    }
+    /* End of card-section */
+
+
+    /* Last Section */
+    .line {
+        object-fit: cover;
+        overflow: hidden;
+        width: 0px;
+        position: relative;
+        top: 200px;
+        display: none;
+    }
+
+
+    /* End of last section */
 }
