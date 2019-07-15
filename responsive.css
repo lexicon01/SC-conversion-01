@@ -22,12 +22,14 @@
         .connect {
             height: 100%;
             width: auto;
+            min-height: 100%;
         }
 
         .purp-bg {
             height: 120%;
             background-size: contain;
-
+            min-width: 120%;
+            min-height: 120%;
         }
 
         .connect-middle h1 {
@@ -77,6 +79,7 @@
     .connect {
         height: 100%;
         width: auto;
+        min-height: 100%;
     }
 
 
