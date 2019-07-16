@@ -1,62 +1,145 @@
 /* **********************************
-        large sizes
+        Xtra large sizes
 ************************************ */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-        .img-stat {
-            height: 300px;
-        }
-        .hero-content h1 {
-            font-size: 2rem;
-        }
-        .hero-content p {
-            font-size: .8rem;
-            padding: 8px;
-        }
+@media (min-width: 1200px) {
+    .img-stat {
+        height: 300px;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: .8rem;
+        padding: 8px;
+    }
+    .tri-img {
+        z-index: -1000;
+        position: absolute;
+        top: -260px;
+        height: 800px;
+        width: auto;
+        right: 0%;
+        bottom: 0%;
+    }
+    /* Connect section */
+    .connect {
+        height: 100%;
+        width: auto;
+        min-height: 100%;
+    }
+    .purp-bg {
+  
+    }
+    .connect-middle h1 {
+        font-size: 2rem;
+    }
+    .space {
+        position: relative;
+        left: 20px;
+    }
+ 
 
-        .tri-img {
-            height: 600px;
-            z-index: -1000;
-            position: absolute;
-            top: -160px;
-            width: auto;
-            right: 0%;
-            bottom: 0%;
-        }
+    .connect-middle {
+        position: relative;
+        top: 10rem;
+        left: -50px;
+    }
+    
+    
+    .connect-middle h1,
+    .connect-middle p {
+        position: relative;
+        top: 10px;
+        padding: 0 20px;
+        left: -20px;
+    }
+    
+    .connect-middle h1 {
+        padding-bottom: 30px;
+    }
+    
+    .pad-fix {
+        padding: 16px;
+    }
+    
+    .mar-fix {
+        margin-bottom: 1.5rem;
+    }
+    /* working on connection second section.. need a break */
 
-        /* Connect section */
-        .connect {
-            height: 100%;
-            width: auto;
-            min-height: 100%;
-        }
+    /* card-section */
 
-        .purp-bg {
-            height: 120%;
-            background-size: contain;
-            min-width: 120%;
-            min-height: 120%;
-        }
+    .card-tri {
+        top: 215px;
+        left: -250px;
+    }
 
-        .connect-middle h1 {
-            font-size: 2rem;
-        }
-        .space {
-            position: relative;
-            left: 20px;
-        }
-/* working on connection second section.. need a break */
-      
+    .middle-center {
+        padding-top: 20rem;
+    }
 }
 
 /*  End of mediumn sizes */
 
+/* **********************************
+        large sizes
+************************************ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img-stat {
+        height: 300px;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: .8rem;
+        padding: 8px;
+    }
+    .tri-img {
+        height: 600px;
+        z-index: -1000;
+        position: absolute;
+        top: -160px;
+        width: auto;
+        right: 0%;
+        bottom: 0%;
+    }
+    /* Connect section */
+    .connect {
+        height: 100%;
+        width: auto;
+        min-height: 100%;
+    }
+    .purp-bg {
+        height: 140%;
+        background-size: contain;
+        min-width: 120%;
+        min-height: 120%;
+    }
+    .connect-middle h1 {
+        font-size: 2rem;
+    }
+    .space {
+        position: relative;
+        left: 20px;
+        font-size: 14px;
+    }
+    .card-tri {
+        top: 182px;
+        left: -150px;
+    }
+    /* working on connection second section.. need a break */
+}
+
+/*  End of mediumn sizes */
 
 /* **********************************
         Mediumn sizes
 ************************************ */
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
     .img-stat {
         height: 250px;
     }
@@ -75,7 +158,6 @@
         position: relative;
         top: -20px;
     }
-
     .tri-img {
         height: 450px;
         z-index: -1000;
@@ -86,53 +168,42 @@
         right: 0%;
         bottom: 0%;
     }
-
     /* connect second section */
     .connect {
         height: 100%;
         width: auto;
         min-height: 100%;
     }
-
-
     .purp-bg {
-        /*height: 100%;
+        height: 140%;
         background-size: contain;
-        right: -200px; */
-        display: none;
+        background-size: 10% 10%;
     }
-    .con-bg-cover {
+    /* .con-bg-cover {
         height: 100%;
         width: 100%;
         background: url(img/background-img.png) no-repeat;
         background-size: cover;
         background-position: center center;
-        
-    }
-
+    } */
     .connect-middle {
         position: relative;
         top: 55px;
     }
-
     .connect-middle h1 {
         font-size: 1.8rem;
     }
-
     .connect-middle p {
         font-size: .9rem;
     }
-
     .space {
         position: relative;
         left: 20px;
         font-size: .8rem;
-       
     }
     .pad-fix {
         padding: 5px;
     }
-
     .mar-fix {
         margin-bottom: 8px;
     }
@@ -141,8 +212,20 @@
         top: 20px;
     }
 
+    .middle-center {
+        padding-top: 10rem;
+        
+    }
 
+    .card-tri {
+        top: 164px;
+        left: -150px;
+        height: 600px;
+    }
 
+    .middle-center {
+
+    }
     /* end of connect */
 }
 
@@ -153,7 +236,6 @@
 ************************************ */
 
 @media (min-width: 575px) and (max-width: 767px) {
-
     .img-stat {
         height: 350px;
         transform: translate(5%, 20%)
@@ -177,32 +259,25 @@
         position: relative;
         top: -10px;
     }
-
     .tri-img {
         height: 450px;
-
     }
-
-    
     /* connect second section */
     .connect {
         height: 100%;
         width: auto;
     }
-
     .connect-middle {
         height: 100%;
         position: relative;
         top: 0px;
     }
-
     .pic-column {
-        align-content:  middle;
+        align-content: middle;
         position: relative;
         right: -50px;
     }
-
-     .purp-bg {
+    .purp-bg {
         /*height: 100%;
         background-size: contain;
         right: -200px; */
@@ -214,7 +289,6 @@
         background-size: cover;
         background-position: center center;
     }
-
     .connect-middle h1 {
         font-size: 1.5rem;
         position: relative;
@@ -227,41 +301,41 @@
         margin-left: 10px;
         padding: 0 15%;
         line-height: 1.2rem;
-
     }
-
     .space {
         position: relative;
         left: 20px;
         font-size: 12px;
     }
-
     .connect-text {
         text-align: center;
         justify-content: center;
     }
-
-    .btn-img   {
+    .btn-img {
         height: 50%;
         width: auto;
     }
-    
     .pad-fix {
         padding: 6px;
-  
     }
-
     .mar-fix {
         margin-bottom: 10px;
     }
-
     .move {
         position: relative;
         top: -10px;
     }
-
     .btn-img {
         height: 3.2rem;
+    }
+
+    .card-tri {
+        transform: rotate(180deg);
+        height: 400px;
+        position: absolute;
+        top: -26px;
+        left: -85px;
+        
     }
     /* end of connectafasdf */
 }
@@ -271,8 +345,6 @@
 ************************************ */
 
 @media (min-width: 336px) and (max-width: 575px) {
- 
-    
     .img-stat {
         height: 300px;
         transform: translate(8%, 20%)
@@ -297,31 +369,25 @@
         top: -30px;
         padding: 6px 25px;
     }
-
     .tri-img {
         height: 450px;
-
     }
-
     /* connect second section */
     .connect {
         height: 100%;
         width: auto;
     }
-
     .connect-middle {
         height: 100%;
         position: relative;
         top: 0px;
     }
-
     .pic-column {
-        align-content:  middle;
+        align-content: middle;
         position: relative;
         right: -50px;
     }
-
-     .purp-bg {
+    .purp-bg {
         /*height: 100%;
         background-size: contain;
         right: -200px; */
@@ -333,7 +399,6 @@
         background-size: cover;
         background-position: center center;
     }
-
     .connect-middle h1 {
         font-size: 1.8rem;
         position: relative;
@@ -342,48 +407,37 @@
     .connect-middle p {
         font-size: 12px;
     }
-
     .space {
         position: relative;
         left: 20px;
         font-size: 12px;
     }
-
     .connect-text {
         text-align: center;
         position: relative;
         left: 23px;
     }
-
-    .btn-img   {
+    .btn-img {
         height: 50%;
         width: auto;
     }
-    
     .pad-fix {
         padding: 8px;
     }
     .mar-fix {
         margin-bottom: 8px;
     }
-
     .btn-img {
         height: 3.2rem;
     }
     /* end of connect */
-
-
     /* Card-section */
-
     .card-section {
         height: 100%;
         position: relative;
         padding: 0rem 0 0rem 0;
     }
-    
-
     .card-tri {
-
         transform: rotate(180deg);
         height: 50px;
         position: absolute;
@@ -391,13 +445,11 @@
         left: 150px;
         display: none;
     }
-    
     .img-pos {
         transform: translate(15%, -240px);
     }
-
     .card-width {
-        width: 18rem;
+        width: 26rem;
     }
     /* .middle-center {     this added unwanted space on the right side of the screen
         position: relative;
@@ -406,20 +458,21 @@
         transform: translate(-30%, 10%);
         
     } */
-
-    .middle-center {
-        margin-top: 150px;
-        margin-left: 70px;
-        text-align: center;
-        
+    .card-section .container {
+        position: relative;
+        display: table;
     }
 
+    .middle-center {
+        display: flex;
+        padding-top: 10rem;
+        position: relative;
+        align-content: center;
+    }
     .mar-top {
         margin-top: 2rem;
     }
     /* End of card-section */
-
-
     /* Last Section */
     .line {
         object-fit: cover;
@@ -428,16 +481,13 @@
         position: relative;
         top: 200px;
         display: none;
-
     }
-
-    .last-section{
+    .last-section {
         position: relative;
         margin: 15rem 0 0 0;
         height: 50%;
         padding: 0 0 0 0;
     }
-
     .cta-content {
         padding: 0rem 0 10rem 0;
         margin-top: 40px;
@@ -445,18 +495,12 @@
     .footer {
         margin: 0 0 0 0;
         position: relative;
-       display: block;
-       text-align: center;
+        display: block;
+        text-align: center;
     }
-
-    .lang {
-    
-       
-    }
-
+    .lang {}
     .last-section .row {
         margin: 0;
     }
-
     /* End of last section */
 }
