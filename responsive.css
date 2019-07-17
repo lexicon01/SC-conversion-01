@@ -88,7 +88,7 @@
         height: 600px;
         z-index: -1000;
         position: absolute;
-        top: -160px;
+        top: -110px;
         width: auto;
         right: 0%;
         bottom: 0%;
@@ -149,7 +149,7 @@
         height: 450px;
         z-index: -1000;
         position: absolute;
-        top: -60px;
+        top: 0px;
         right: 0px;
         width: auto;
         right: 0%;
@@ -242,6 +242,7 @@
     }
     .tri-img {
         height: 450px;
+        top: 350px;
     }
     /* connect second section */
     .connect {
@@ -275,6 +276,7 @@
         position: relative;
         top: 30px;
         text-align: center;
+        top: 20px;
     }
     .connect-middle p {
         font-size: .9rem;
@@ -282,6 +284,7 @@
         margin-left: 10px;
         padding: 0 15%;
         line-height: 1.2rem;
+        top: -5px;
     }
     .space {
         position: relative;
@@ -327,6 +330,10 @@
     .img-stat {
         height: 300px;
         transform: translate(0%, 20%)
+    }
+    .hero-fix {
+        float: none;
+        margin: 0 auto;
     }
     .hero-content {
         text-align: center;
