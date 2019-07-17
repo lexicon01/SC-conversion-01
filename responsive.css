@@ -349,7 +349,9 @@
         padding: 6px 25px;
     }
     .tri-img {
-        height: 450px;
+        height: 350px;
+        top: 330px;
+        right: 10px;
     }
     /* connect second section */
     .connect {
