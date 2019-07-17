@@ -335,7 +335,7 @@
 @media (min-width: 336px) and (max-width: 575px) {
     .img-stat {
         height: 300px;
-        transform: translate(0%, 20%)
+        transform: translate(5%, 20%)
     }
     .hero-fix {
         float: none;
@@ -363,8 +363,8 @@
     }
     .tri-img {
         height: 350px;
-        top: 330px;
-        right: 10px;
+        top: 340px;
+        right: -0px;
     }
     /* connect second section */
     .connect {
@@ -396,10 +396,17 @@
     .connect-middle h1 {
         font-size: 1.8rem;
         position: relative;
-        top: 35px;
+        top: 15px;
+        left: 8px;
+        text-align: center;
+        
     }
     .connect-middle p {
+        position: relative;
+        top: -10px;
         font-size: 12px;
+        width: 80%;
+        float: right;
     }
     .space {
         position: relative;
@@ -407,9 +414,8 @@
         font-size: 12px;
     }
     .connect-text {
-        text-align: center;
         position: relative;
-        left: 23px;
+   
     }
     .btn-img {
         height: 50%;
@@ -495,7 +501,9 @@
             display: block;
             text-align: center;
         }
-        
+        .justify-content-end {
+            justify-content: center !important;
+        }
         .last-section .row {
             margin: 0;
         }
