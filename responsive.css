@@ -28,9 +28,7 @@
         width: auto;
         min-height: 100%;
     }
-    .purp-bg {
-  
-    }
+    .purp-bg {}
     .connect-middle h1 {
         font-size: 2rem;
     }
@@ -38,43 +36,32 @@
         position: relative;
         left: 20px;
     }
- 
-
     .connect-middle {
         position: relative;
         top: 10rem;
         left: -50px;
     }
-    
-    
-    .connect-middle h1,
-    .connect-middle p {
+    .connect-middle h1, .connect-middle p {
         position: relative;
         top: 10px;
         padding: 0 20px;
         left: -20px;
     }
-    
     .connect-middle h1 {
         padding-bottom: 30px;
     }
-    
     .pad-fix {
         padding: 16px;
     }
-    
     .mar-fix {
         margin-bottom: 1.5rem;
     }
     /* working on connection second section.. need a break */
-
     /* card-section */
-
     .card-tri {
         top: 215px;
         left: -250px;
     }
-
     .middle-center {
         padding-top: 20rem;
     }
@@ -211,21 +198,15 @@
         position: relative;
         top: 20px;
     }
-
     .middle-center {
         padding-top: 10rem;
-        
     }
-
     .card-tri {
         top: 164px;
         left: -150px;
         height: 600px;
     }
-
-    .middle-center {
-
-    }
+    .middle-center {}
     /* end of connect */
 }
 
@@ -328,14 +309,12 @@
     .btn-img {
         height: 3.2rem;
     }
-
     .card-tri {
         transform: rotate(180deg);
         height: 400px;
         position: absolute;
         top: -26px;
         left: -85px;
-        
     }
     /* end of connectafasdf */
 }
@@ -347,7 +326,7 @@
 @media (min-width: 336px) and (max-width: 575px) {
     .img-stat {
         height: 300px;
-        transform: translate(8%, 20%)
+        transform: translate(0%, 20%)
     }
     .hero-content {
         text-align: center;
@@ -462,45 +441,45 @@
         position: relative;
         display: table;
     }
-
     .middle-center {
         display: flex;
         padding-top: 10rem;
         position: relative;
         align-content: center;
+        float: none;
+        margin: 0 auto;
+        .mar-top {
+            margin-top: 2rem;
+        }
+        /* End of card-section */
+        /* Last Section */
+        .line {
+            object-fit: cover;
+            overflow: hidden;
+            width: 0px;
+            position: relative;
+            top: 200px;
+            display: none;
+        }
+        .last-section {
+            position: relative;
+            margin: 15rem 0 0 0;
+            height: 50%;
+            padding: 0 0 0 0;
+        }
+        .cta-content {
+            padding: 0rem 0 10rem 0;
+            margin-top: 40px;
+        }
+        .footer {
+            margin: 0 0 0 0;
+            position: relative;
+            display: block;
+            text-align: center;
+        }
+        .lang {}
+        .last-section .row {
+            margin: 0;
+        }
+        /* End of last section */
     }
-    .mar-top {
-        margin-top: 2rem;
-    }
-    /* End of card-section */
-    /* Last Section */
-    .line {
-        object-fit: cover;
-        overflow: hidden;
-        width: 0px;
-        position: relative;
-        top: 200px;
-        display: none;
-    }
-    .last-section {
-        position: relative;
-        margin: 15rem 0 0 0;
-        height: 50%;
-        padding: 0 0 0 0;
-    }
-    .cta-content {
-        padding: 0rem 0 10rem 0;
-        margin-top: 40px;
-    }
-    .footer {
-        margin: 0 0 0 0;
-        position: relative;
-        display: block;
-        text-align: center;
-    }
-    .lang {}
-    .last-section .row {
-        margin: 0;
-    }
-    /* End of last section */
-}
